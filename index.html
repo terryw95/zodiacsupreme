@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Zodiac Supreme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="banner">
+        <h1 class="text-center logo"><span>Zodiac</span> <br> Supreme</h1>
+        <nav>
+            <ul class="nav-list text-center">
+                <li id="home-1"><a href="#">Home</a></li>
+                <li id="characters"><a href="characters.html">Characters</a></li>
+                <li id="shop"><a href="#">Shop</a></li>
+                <li id="about"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+       <section>
+           <div class="bg-img">
+                <form class="form-style">
+                    <h1 class="form-heading">Questionnaire!</h1>
+                    <label for="fav-char">Who's your favorite character?!</label>
+                    <input type="text" name="fav-char" id="fav-char" required>
+                    <br>
+                    <br>
+                    <label for="age">How old are you?!</label>
+                    <input type="number" name="your-age" id="age" step="1" min="0" max="100" required>
+                    <br>
+                    <br>
+                    <label for="sign">What's your zodiac sign?!</label>
+                    <select id="sign" name="sign" required>
+                        <option value="aries">Aries</option>
+                        <option value="taurus">Taurus</option>
+                        <option value="gemini">Gemini</option>
+                        <option value="cancer">Cancer</option>
+                        <option value="leo">Leo</option>
+                        <option value="virgo">Virgo</option>
+                        <option value="libra">Libra</option>
+                        <option value="scorpio">Scorpio</option>
+                        <option value="sagittarius">Sagittarius</option>
+                        <option value="capricorn">Capricorn</option>
+                        <option value="aquarius">Aquarius</option>
+                        <option value="pisces">Pisces</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit"></input>
+                </form>
+            </div>
+       </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>
