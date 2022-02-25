@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  
+
+  body {
+    background: linear-gradient(43deg, white, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 90%;
+  }
+  
+#home-1 a{
+  color: goldenrod;
+}
+
+  img {
+    display: block;
+    max-width: 100%;
+    width: 200px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+
+
+  li {
+    list-style: none;
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: gold;
+  }
+
+  .banner {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+  }
+
+ .logo {
+    color: goldenrod;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    margin-top: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-text-stroke: 0.4px black;
+      animation-name: bounceMe;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes bounceMe {
+      0% {
+        opacity: 0.2;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+      from {
+        text-shadow: 0 0 3px white, 0 0 3px #fff, 0 0 3px white;
+      }
+      to {
+        text-shadow: 0 0 7px white, 0 0 7px white, 0 0 7px white;
+      }
+    }
+ 
+
+  
+
+.logo span {
+  font-size: 5.1rem;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-content: center;
+  margin-top: 25px;
+  padding: 0;
+
+}
+
+.nav-list li {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.form-style {
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.4rem;
+  padding: 5px;
+  color: goldenrod;
+  width: 95%;
+  margin: 0 auto;
+  -webkit-text-stroke: 0.1px white;
+  font-weight: bold;
+}
+
+.bg-img {
+  background-image: url('/img/zodiacwheel.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid goldenrod;
+  border-radius: 20px;
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+.form-heading {
+  text-transform: uppercase;
+}
